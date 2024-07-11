@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+        </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calculator</h1>
+            <span class="material-symbols-outlined">calculate</span>
+        </header>
+        <div class="calculatorBody">
+            <div id="display"></div>
+            <div class="buttons">
+                <button class="button clear col-span-2" id="clear">C</button>
+                <button class="button operator" data-operator="/">/</button>
+                <button class="button operator" data-operator="*">*</button>
+                <button class="button operator" data-operator="%">%</button>
+                <button class="button operator" data-operator="+">+</button>
+                <button class="button number" data-number=""="-">-</button>
+                <button class="button number" data-number="7">7</button>
+                <button class="button number" data-number="8">8</button>
+                <button class="button number" data-number="9">9</button>
+                <button class="button number" data-number="4">4</button>
+                <button class="button number" data-number="5">5</button>
+                <button class="button number" data-number="6">6</button>
+                <button class="button number" data-number="1">1</button>
+                <button class="button number" data-number="2">2</button>
+                <button class="button number" data-number="3">3</button>
+                <button class="button number" data-number=".">.</button>
+                <button class="button number" data-number="0">0</button>
+                <button class="button equals col-span-2" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
